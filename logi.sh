@@ -25,11 +25,13 @@ cat <<LOGIN>bash.bashrc
 trap '' 2
 echo -e "\e[1;32m
                 ──▄▀▀▀▄───────────────
-                Please Login To Continue
+                Berdoa Dulu Sebelum Login
                 ──█───█───────────────
                 ─███████─────────▄▀▀▄─
                 ░██─▀─██░░█▀█▀▀▀▀█░░█░
                 ░███▄███░░▀░▀░░░░░▀▀░░
+       ...::::[ Powered by Mr_Z17 YouTube ]::::...
+                 [  Username : X-Vieri  ]
 \e[0m"
 read -p $'\e[32mInput Username :\e[0m ' user
 read -s -p $'\e[32mInput Password :\e[0m ' pass
